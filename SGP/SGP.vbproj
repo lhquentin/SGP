@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA87ECCE-1CF0-4CF1-9ED1-7942B5B3824C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SGP.My.MyApplication</StartupObject>
+    <RootNamespace>SGP</RootNamespace>
+    <AssemblyName>SGP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SGP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SGP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dlgApropos.Designer.vb">
+      <DependentUpon>dlgApropos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgApropos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgChoixGeneration.Designer.vb">
+      <DependentUpon>dlgChoixGeneration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgChoixGeneration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerationPresentationProgramme.vb" />
+    <Compile Include="dlgAjoutIntention.Designer.vb">
+      <DependentUpon>dlgAjoutIntention.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAjoutIntention.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgDateOfficialisation.Designer.vb">
+      <DependentUpon>dlgDateOfficialisation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgDateOfficialisation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgDonneesDevis.Designer.vb">
+      <DependentUpon>dlgDonneesDevis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgDonneesDevis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgAjoutCompetence.Designer.vb">
+      <DependentUpon>dlgAjoutCompetence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAjoutCompetence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFormulaireCompetence.Designer.vb">
+      <DependentUpon>dlgFormulaireCompetence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFormulaireCompetence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgFormulaireCours.Designer.vb">
+      <DependentUpon>dlgFormulaireCours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgFormulaireCours.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgDonneesProgramme.Designer.vb">
+      <DependentUpon>dlgDonneesProgramme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgDonneesProgramme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgListeCours.Designer.vb">
+      <DependentUpon>dlgListeCours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgListeCours.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgListeIntention.Designer.vb">
+      <DependentUpon>dlgListeIntention.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgListeIntention.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgSelectionDevis.Designer.vb">
+      <DependentUpon>dlgSelectionDevis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgSelectionDevis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgListeHabilete.Designer.vb">
+      <DependentUpon>dlgListeHabilete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgListeHabilete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dlgListeElement.Designer.vb">
+      <DependentUpon>dlgListeElement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgListeElement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConnexion.Designer.vb">
+      <DependentUpon>frmConnexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConnexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionCours.Designer.vb">
+      <DependentUpon>frmGestionCours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionCours.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionDevis.Designer.vb">
+      <DependentUpon>frmGestionDevis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionDevis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionHabilete.Designer.vb">
+      <DependentUpon>frmGestionHabilete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionHabilete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionUtilisateur.Designer.vb">
+      <DependentUpon>frmGestionUtilisateur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionUtilisateur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModifierMdp.Designer.vb">
+      <DependentUpon>frmModifierMdp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModifierMdp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaisieTexte.Designer.vb">
+      <DependentUpon>frmSaisieTexte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSaisieTexte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionProgrammes.Designer.vb">
+      <DependentUpon>frmGestionProgrammes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionProgrammes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDISGP.Designer.vb">
+      <DependentUpon>MDISGP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDISGP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SGPDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SGPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SGPDataSet.vb">
+      <DependentUpon>SGPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UtilitaireMDP.vb" />
+    <Compile Include="VariablesGlobales.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dlgApropos.resx">
+      <DependentUpon>dlgApropos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgChoixGeneration.resx">
+      <DependentUpon>dlgChoixGeneration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgAjoutIntention.resx">
+      <DependentUpon>dlgAjoutIntention.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgDateOfficialisation.resx">
+      <DependentUpon>dlgDateOfficialisation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgDonneesDevis.resx">
+      <DependentUpon>dlgDonneesDevis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgAjoutCompetence.resx">
+      <DependentUpon>dlgAjoutCompetence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFormulaireCompetence.resx">
+      <DependentUpon>dlgFormulaireCompetence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgFormulaireCours.resx">
+      <DependentUpon>dlgFormulaireCours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgDonneesProgramme.resx">
+      <DependentUpon>dlgDonneesProgramme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgListeCours.resx">
+      <DependentUpon>dlgListeCours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgListeIntention.resx">
+      <DependentUpon>dlgListeIntention.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgSelectionDevis.resx">
+      <DependentUpon>dlgSelectionDevis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgListeHabilete.resx">
+      <DependentUpon>dlgListeHabilete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgListeElement.resx">
+      <DependentUpon>dlgListeElement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnexion.resx">
+      <DependentUpon>frmConnexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionCours.resx">
+      <DependentUpon>frmGestionCours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionDevis.resx">
+      <DependentUpon>frmGestionDevis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionHabilete.resx">
+      <DependentUpon>frmGestionHabilete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionUtilisateur.resx">
+      <DependentUpon>frmGestionUtilisateur.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModifierMdp.resx">
+      <DependentUpon>frmModifierMdp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaisieTexte.resx">
+      <DependentUpon>frmSaisieTexte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionProgrammes.resx">
+      <DependentUpon>frmGestionProgrammes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDISGP.resx">
+      <DependentUpon>MDISGP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SGPDataSet.xsc">
+      <DependentUpon>SGPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SGPDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SGPDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SGPDataSet.xss">
+      <DependentUpon>SGPDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

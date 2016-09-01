@@ -1,0 +1,928 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SGP
+</name>
+</assembly>
+<members>
+<member name="T:SGP.SGPDataSet.P_SELECT_Type_SanctionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ProgrammesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetencesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Type_ProgrammeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ContexteCompetenceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programmes_PKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCompetenceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CritereElementDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Competence_PKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_DevisProgrammesFKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Competences_ProgrammeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ActiviteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_ListeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_DevisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionCoursDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_SectionHabileteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteCoursDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCompetence_EXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCoursDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetenceDevisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Devis_PKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_TypePrealableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDevis_EXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDevisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_PKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionCours_EXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionDevis_EXDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionDevisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Utilisateur_CourrielDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_MotDePasseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_EnseigneDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_RoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_UtilisateurDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Utilisateur_PKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CritereCompetenceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Version_SectionHabileteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_EnseignantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursElementDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_TitreProgrammeListeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_Liste_EnseignantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Devis_EnseignantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_EnseignantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CodeProgrammeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programmes_GDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCours_PKDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCoursDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetenceCours_GDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCours_GDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteDevis_GDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursHabilete_GDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Sessions_DevisDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_GDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Type_SanctionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ProgrammesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetencesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Type_ProgrammeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ContexteCompetenceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programmes_PKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCompetenceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CritereElementRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Competence_PKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_DevisProgrammesFKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Competences_ProgrammeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ActiviteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_ListeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_DevisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionCoursRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_SectionHabileteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteCoursRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCompetence_EXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCoursRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetenceDevisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Devis_PKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_TypePrealableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDevis_EXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDevisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_PKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionCours_EXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionDevis_EXRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionDevisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Utilisateur_CourrielRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_MotDePasseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_EnseigneRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_RoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_UtilisateurRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Utilisateur_PKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CritereCompetenceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Version_SectionHabileteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_EnseignantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursElementRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_TitreProgrammeListeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_Liste_EnseignantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Devis_EnseignantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_EnseignantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CodeProgrammeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programmes_GRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCours_PKRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCoursRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetenceCours_GRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCours_GRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteDevis_GRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursHabilete_GRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Sessions_DevisRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_GRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Type_SanctionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ProgrammesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetencesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Type_ProgrammeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ContexteCompetenceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programmes_PKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCompetenceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CritereElementRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Competence_PKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_DevisProgrammesFKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Competences_ProgrammeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ActiviteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_ListeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_DevisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionCoursRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_SectionHabileteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteCoursRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCompetence_EXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_ElementCoursRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetenceDevisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Devis_PKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_TypePrealableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDevis_EXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursDevisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_PKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionCours_EXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionDevis_EXRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_IntentionDevisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Utilisateur_CourrielRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_MotDePasseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_EnseigneRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_RoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_UtilisateurRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Utilisateur_PKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CritereCompetenceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Version_SectionHabileteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_EnseignantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursElementRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_TitreProgrammeListeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programme_Liste_EnseignantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Devis_EnseignantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_EnseignantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CodeProgrammeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Programmes_GRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCours_PKRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCoursRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CompetenceCours_GRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_PrealableCours_GRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_HabileteDevis_GRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_CoursHabilete_GRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Sessions_DevisRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet.P_SELECT_Cours_GRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SGP.SGPDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Type_SanctionTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_ProgrammesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CompetencesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Type_ProgrammeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_ContexteCompetenceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Programmes_PKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_ElementCompetenceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CritereElementTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Competence_PKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_DevisProgrammesFKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CoursTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Competences_ProgrammeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_ActiviteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Programme_ListeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_DevisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_IntentionCoursTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_HabileteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_SectionHabileteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_HabileteCoursTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_ElementCompetence_EXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_ElementCoursTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CompetenceDevisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Devis_PKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_TypePrealableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CoursDevis_EXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CoursDevisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Cours_PKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_IntentionCours_EXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_IntentionDevis_EXTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_IntentionDevisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Utilisateur_CourrielTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_MotDePasseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_EnseigneTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_RoleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_UtilisateurTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Utilisateur_PKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CritereCompetenceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Version_SectionHabileteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Programme_EnseignantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CoursElementTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_TitreProgrammeListeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Programme_Liste_EnseignantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Devis_EnseignantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Cours_EnseignantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CodeProgrammeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Programmes_GTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_PrealableCours_PKTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_PrealableCoursTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CompetenceCours_GTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_PrealableCours_GTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_HabileteDevis_GTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_CoursHabilete_GTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Sessions_DevisTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.P_SELECT_Cours_GTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SGP.SGPDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SGP.SGPDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SGP.SGPDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SGP.SGPDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SGP.SGPDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SGP.SGPDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SGP.SGPDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SGP.SGPDataSetTableAdapters.TableAdapterManager.UpdateAll(SGP.SGPDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SGP.SGPDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:SGP.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SGP.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SGP.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
